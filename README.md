@@ -8,13 +8,11 @@ Open `index.html` in a browser. For a local server, run `python3 -m http.server`
 
 ## Publish with GitHub Pages
 
-1. Create a new GitHub repository for the site. Do not upload secrets or private account data.
-2. Upload the contents of this folder to the repository root (not the enclosing folder).
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**, choose `main` and `/(root)`, then save.
-5. Wait for the Pages deployment and open the URL shown in Settings → Pages.
+The site source is now in the private repository `crnealesq-byte/AI-and-the-Young-Gods`. GitHub Pages has not been enabled, so the site is not published.
 
-The site is built with relative links, so it works at either a user site or a project site URL.
+Before enabling Pages, choose whether the site should be public. On a GitHub Free personal account, GitHub Pages requires a public repository. Making this repository public exposes the source and commit history, and lets anyone fork it. If the repository stays private, Pages requires an eligible paid plan; check the account's current Pages options under **Settings → Pages**.
+
+When ready to publish, open **Settings → Pages**. Under **Build and deployment**, select **Deploy from a branch**, choose `main` and `/(root)`, then save. The site uses relative links and works at a project URL.
 
 ## Add approved artwork
 
